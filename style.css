@@ -1,0 +1,145 @@
+html{
+  overflow: scroll;
+  box-sizing: border-box;
+}
+html,body{
+  margin: 0;
+  padding: 0;
+  
+}
+
+header{
+  position: relative;
+  background-color: gray;
+  height: 50px;
+  padding: 0 auto;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  
+}
+
+header a{
+  display: inline-block;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 200px;
+  text-align: center;
+  color: white;
+  
+}
+
+a:hover{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+main{
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  background-image: url("https://content.codecademy.com/projects/broadway/bg.jpg");
+  height: 600px;
+  background-size: cover;
+  top: 50px;
+}
+
+main h1{
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  margin-top: 0px;
+  padding-top: 80px;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+
+}
+
+main a{
+  background-color: #333;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+img{
+  height: 50px;
+}
+
+.support{
+  padding: 100px;
+ 
+}
+
+.support2{
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.support .col{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  display: inline-block;
+  width: 200px;
+  margin: 30px 50px;
+  height: 300px;
+ 
+}
+
+.col a{
+  position: relative;
+  top: 50px;
+}
+
+
+
+.btn-s{
+  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  border: 1px solid black;
+  width: 500px;
+  height: 300px;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+
+footer{
+  
+  background-color: #333;
+  height: 150px;
+  color: white;
+  text-align: center;
+  padding: 30px auto;
+  
+}
+
+footer p{
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+  top: 80px;
+}
+
+
+@media (max-width: 500px) {
+  main h1 {
+    font-size: 50px;
+    padding: 0 40px;
+  }
+
+  .supporting .col {
+    width: 100%;
+  }
+}
